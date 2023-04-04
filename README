@@ -1,0 +1,18 @@
+Module 6 - Validate Model Data
+
+Required npm modules: dotenv express body-parser mongoose express-validator ejs
+
+This is a web app that will create a server and open a connection to a MongoDB collection
+
+On the home page you can create a new user, retrieve a user, update, and delete user documents
+
+User details are validated based on criteria such as valid email address, minimum age (18+), name length longer than 2 characters etc
+
+Invalid details will return an error stating what did not validate into the console log
+
+To create a user click the signup link
+To retrieve click the lookup link
+To update click the edit link
+To delete click the delete link
+
+/home is the landing page with links to the CRUD functions in case you get stuck, usually it should return you back to the home page if an error happens
